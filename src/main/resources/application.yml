@@ -11,7 +11,7 @@ spring:
   application:
     name: third-party-utility-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres?TimeZone=Asia/Kolkata
+    url: jdbc:postgresql://15.206.238.217:5432/evisa?currentSchema=test&TimeZone=Asia/Kolkata
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
